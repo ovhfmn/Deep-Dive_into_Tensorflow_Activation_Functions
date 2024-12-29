@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import sys
 
     '''
     1. Usually is described as multiple Sigmoids.
@@ -9,9 +8,7 @@ import sys
     4. The higher output for the given class the higher probability.
     '''
 def softmax(x):
-    z = np.exp(x)
-    z_ = z/z.sum()
-    return z_
+    return np.exp(x)/np.exp(x).sum()
 
 x = np.linspace(-10,10)
 

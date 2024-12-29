@@ -1,10 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import sys
 
     '''
     1. It returns the value between -1 and 1
-    2. Common choise for hidden layers
+    2. Common choice for hidden layers
     '''
 def tanh(x):
     return np.tanh(x)
